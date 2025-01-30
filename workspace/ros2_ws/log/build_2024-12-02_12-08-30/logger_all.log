@@ -1,0 +1,804 @@
+[0.168s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.168s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79f7d50e6588>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79f7d50e6588>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79f7d49c8e48>)
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.263s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ros2_ws'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_reader) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_reader' with type 'ros.ament_cmake' and name 'camera_reader'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/inference_webcam) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/inference_webcam' with type 'ros.ament_cmake' and name 'inference_webcam'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/mesh_description) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mesh_description' with type 'ros.ament_cmake' and name 'mesh_description'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'ros'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['cmake', 'python']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'cmake'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extensions ['python_setup_py']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite) by extension 'python_setup_py'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi' with type 'ros.ament_cmake' and name 'rosapi'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosapi_msgs) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosapi_msgs' with type 'ros.ament_cmake' and name 'rosapi_msgs'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_library) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_library' with type 'ros.ament_cmake' and name 'rosbridge_library'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_msgs) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_msgs' with type 'ros.ament_cmake' and name 'rosbridge_msgs'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_server) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_server' with type 'ros.ament_cmake' and name 'rosbridge_server'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_suite) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_suite' with type 'ros.ament_cmake' and name 'rosbridge_suite'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbridge_suite/rosbridge_test_msgs) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbridge_suite/rosbridge_test_msgs' with type 'ros.ament_cmake' and name 'rosbridge_test_msgs'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 232 installed packages in /opt/ros/eloquent
+[0.306s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_clean_first' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'cmake_force_configure' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'camera_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'camera_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/camera_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/camera_reader', 'merge_install': False, 'path': '/workspace/ros2_ws/src/camera_reader', 'symlink_install': False, 'test_result_base': None}
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'inference_webcam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'inference_webcam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/inference_webcam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/inference_webcam', 'merge_install': False, 'path': '/workspace/ros2_ws/src/inference_webcam', 'symlink_install': False, 'test_result_base': None}
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'mesh_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'mesh_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/mesh_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/mesh_description', 'merge_install': False, 'path': '/workspace/ros2_ws/src/mesh_description', 'symlink_install': False, 'test_result_base': None}
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosapi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosapi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosapi_msgs', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosbridge_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosbridge_msgs', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_test_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_test_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosbridge_test_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosbridge_test_msgs', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosbridge_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosbridge_library', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosapi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] DEBUG:colcon.colcon_core.verb:Building package 'rosapi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosapi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosapi', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosapi', 'symlink_install': False, 'test_result_base': None}
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_args' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target' from command line to 'None'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosbridge_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosbridge_server', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_server', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_clean_first' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'cmake_force_configure' from command line to 'False'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'ament_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'rosbridge_suite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.348s] DEBUG:colcon.colcon_core.verb:Building package 'rosbridge_suite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/rosbridge_suite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/rosbridge_suite', 'merge_install': False, 'path': '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_suite', 'symlink_install': False, 'test_result_base': None}
+[0.348s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs' with build type 'ament_cmake'
+[0.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_test_msgs'
+[0.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.351s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.351s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_msgs' with build type 'ament_cmake'
+[0.360s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_msgs'
+[0.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.364s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/camera_reader' with build type 'ament_cmake'
+[0.364s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/camera_reader'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/inference_webcam' with build type 'ament_cmake'
+[0.368s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/inference_webcam'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/mesh_description' with build type 'ament_cmake'
+[0.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/mesh_description'
+[0.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs -- -j32 -l32
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi_msgs -- -j32 -l32
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_msgs -- -j32 -l32
+[0.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[0.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+[0.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+[0.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[0.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32
+[0.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_description)
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description' for CMake module files
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description' for CMake config files
+[0.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_description', 'cmake_prefix_path')
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.dsv'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.sh'
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/bin'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/lib/pkgconfig/mesh_description.pc'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/lib/python3.6/site-packages'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/bin'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.sh'
+[0.532s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.bash'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.zsh'
+[0.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/mesh_description/share/colcon-core/packages/mesh_description)
+[0.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inference_webcam)
+[0.545s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam' for CMake module files
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam' for CMake config files
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('inference_webcam', 'cmake_prefix_path')
+[0.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.sh'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib/pkgconfig/inference_webcam.pc'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib/python3.6/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.sh'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/inference_webcam/share/colcon-core/packages/inference_webcam)
+[0.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mesh_description)
+[0.570s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description' for CMake module files
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description' for CMake config files
+[0.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('mesh_description', 'cmake_prefix_path')
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.ps1'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.dsv'
+[0.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/mesh_description/share/mesh_description/hook/cmake_prefix_path.sh'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/bin'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/lib/pkgconfig/mesh_description.pc'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/lib/python3.6/site-packages'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/mesh_description/bin'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.bash'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/mesh_description/share/mesh_description/package.zsh'
+[0.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/mesh_description/share/colcon-core/packages/mesh_description)
+[0.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32
+[0.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inference_webcam)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam' for CMake module files
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam' for CMake config files
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('inference_webcam', 'cmake_prefix_path')
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.ps1'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.dsv'
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/hook/cmake_prefix_path.sh'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib'
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/bin'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib/pkgconfig/inference_webcam.pc'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/lib/python3.6/site-packages'
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/inference_webcam/bin'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.sh'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.bash'
+[0.598s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.zsh'
+[0.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/inference_webcam/share/colcon-core/packages/inference_webcam)
+[0.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_reader)
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader' for CMake module files
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader' for CMake config files
+[0.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_reader', 'cmake_prefix_path')
+[0.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.ps1'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.dsv'
+[0.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.sh'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/bin'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib/pkgconfig/camera_reader.pc'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib/python3.6/site-packages'
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/bin'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.bash'
+[0.605s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.zsh'
+[0.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/camera_reader/share/colcon-core/packages/camera_reader)
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_msgs -- -j32 -l32
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_reader)
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader' for CMake module files
+[0.634s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader' for CMake config files
+[0.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_reader', 'cmake_prefix_path')
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.ps1'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/camera_reader/share/camera_reader/hook/cmake_prefix_path.sh'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/bin'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib/pkgconfig/camera_reader.pc'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/lib/python3.6/site-packages'
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/camera_reader/bin'
+[0.636s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.ps1'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.sh'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.bash'
+[0.637s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/camera_reader/share/camera_reader/package.zsh'
+[0.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/camera_reader/share/colcon-core/packages/camera_reader)
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi_msgs -- -j32 -l32
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_msgs --target install -- -j32 -l32
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs -- -j32 -l32
+[0.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs' for CMake module files
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_msgs --target install -- -j32 -l32
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs' for CMake config files
+[0.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[0.990s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib'
+[0.990s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages'
+[0.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[0.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/bin'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[0.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_msgs)
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs' for CMake module files
+[1.069s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs' for CMake config files
+[1.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'cmake_prefix_path')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.dsv'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/cmake_prefix_path.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib'
+[1.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'ld_library_path_lib')
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/ld_library_path_lib.sh'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib/pkgconfig/rosbridge_msgs.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages'
+[1.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_msgs', 'pythonpath')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/hook/pythonpath.sh'
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_msgs/bin'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.ps1'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.sh'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.bash'
+[1.077s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_msgs/share/rosbridge_msgs/package.zsh'
+[1.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_msgs/share/colcon-core/packages/rosbridge_msgs)
+[1.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosapi_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi_msgs --target install -- -j32 -l32
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs --target install -- -j32 -l32
+[1.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs' for CMake module files
+[1.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosapi_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi_msgs --target install -- -j32 -l32
+[1.563s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs' for CMake config files
+[1.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[1.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib'
+[1.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[1.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/bin'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages'
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'pythonpath')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.ps1'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.dsv'
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.sh'
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/bin'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[1.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[1.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[1.682s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs' for CMake module files
+[1.683s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs' for CMake config files
+[1.684s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[1.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[1.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib'
+[1.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/bin'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages'
+[1.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'pythonpath')
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.ps1'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.sh'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/bin'
+[1.691s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[1.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[1.693s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[1.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs --target install -- -j32 -l32
+[2.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi_msgs)
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs' for CMake module files
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs' for CMake config files
+[2.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'cmake_prefix_path')
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.dsv'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/cmake_prefix_path.sh'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib'
+[2.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'ld_library_path_lib')
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/ld_library_path_lib.sh'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/bin'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib/pkgconfig/rosapi_msgs.pc'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages'
+[2.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi_msgs', 'pythonpath')
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.dsv'
+[2.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/hook/pythonpath.sh'
+[2.112s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi_msgs/bin'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.dsv'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi_msgs/share/rosapi_msgs/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosapi_msgs/share/colcon-core/packages/rosapi_msgs)
+[2.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_test_msgs)
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs' for CMake module files
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs' for CMake config files
+[2.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'cmake_prefix_path')
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.dsv'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/cmake_prefix_path.sh'
+[2.330s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib'
+[2.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'ld_library_path_lib')
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.dsv'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/ld_library_path_lib.sh'
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/bin'
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib/pkgconfig/rosbridge_test_msgs.pc'
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages'
+[2.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_test_msgs', 'pythonpath')
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.dsv'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/hook/pythonpath.sh'
+[2.332s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_test_msgs/bin'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.sh'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.bash'
+[2.334s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_test_msgs/share/rosbridge_test_msgs/package.zsh'
+[2.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_test_msgs/share/colcon-core/packages/rosbridge_test_msgs)
+[2.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library' with build type 'ament_cmake'
+[2.335s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library'
+[2.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_library -- -j32 -l32
+[2.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_library -- -j32 -l32
+[2.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_library': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_library --target install -- -j32 -l32
+[2.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[2.489s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library' for CMake module files
+[2.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_library' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_library --target install -- -j32 -l32
+[2.490s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library' for CMake config files
+[2.490s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[2.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[2.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/bin'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[2.491s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages'
+[2.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'pythonpath')
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.dsv'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.sh'
+[2.492s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/bin'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[2.494s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[2.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_library)
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library' for CMake module files
+[2.521s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library' for CMake config files
+[2.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'cmake_prefix_path')
+[2.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.ps1'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.dsv'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/cmake_prefix_path.sh'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/bin'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib/pkgconfig/rosbridge_library.pc'
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages'
+[2.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_library', 'pythonpath')
+[2.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.ps1'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/hook/pythonpath.sh'
+[2.524s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_library/bin'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.ps1'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.dsv'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.bash'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_library/share/rosbridge_library/package.zsh'
+[2.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_library/share/colcon-core/packages/rosbridge_library)
+[2.526s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosapi' with build type 'ament_cmake'
+[2.526s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosapi'
+[2.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi -- -j32 -l32
+[2.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi -- -j32 -l32
+[2.621s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi --target install -- -j32 -l32
+[2.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi' for CMake module files
+[2.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi --target install -- -j32 -l32
+[2.711s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi' for CMake config files
+[2.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/bin'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages'
+[2.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'pythonpath')
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.ps1'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.dsv'
+[2.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.sh'
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/bin'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.ps1'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/package.dsv'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.sh'
+[2.714s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.zsh'
+[2.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[2.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosapi)
+[2.744s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi' for CMake module files
+[2.745s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi' for CMake config files
+[2.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'cmake_prefix_path')
+[2.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.ps1'
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.dsv'
+[2.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/cmake_prefix_path.sh'
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib'
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/bin'
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib/pkgconfig/rosapi.pc'
+[2.748s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages'
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosapi', 'pythonpath')
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.dsv'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosapi/share/rosapi/hook/pythonpath.sh'
+[2.750s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosapi/bin'
+[2.750s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.ps1'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosapi/share/rosapi/package.dsv'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.sh'
+[2.751s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.bash'
+[2.752s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosapi/share/rosapi/package.zsh'
+[2.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosapi/share/colcon-core/packages/rosapi)
+[2.753s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_server' with build type 'ament_cmake'
+[2.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_server'
+[2.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.754s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosbridge_server
+[3.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_server' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosbridge_server -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosbridge_server
+[3.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_server -- -j32 -l32
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_server' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_server -- -j32 -l32
+[3.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_server': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_server --target install -- -j32 -l32
+[3.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[3.231s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server' for CMake module files
+[3.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_server' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_server --target install -- -j32 -l32
+[3.231s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server' for CMake config files
+[3.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[3.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/bin'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[3.233s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages'
+[3.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'pythonpath')
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.ps1'
+[3.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.dsv'
+[3.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.sh'
+[3.234s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/bin'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[3.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[3.263s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_server)
+[3.264s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server' for CMake module files
+[3.265s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server' for CMake config files
+[3.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'cmake_prefix_path')
+[3.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.ps1'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.dsv'
+[3.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/cmake_prefix_path.sh'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/bin'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib/pkgconfig/rosbridge_server.pc'
+[3.268s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages'
+[3.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_server', 'pythonpath')
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.ps1'
+[3.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.dsv'
+[3.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/hook/pythonpath.sh'
+[3.269s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_server/bin'
+[3.270s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.ps1'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.dsv'
+[3.271s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.sh'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.bash'
+[3.272s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_server/share/rosbridge_server/package.zsh'
+[3.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_server/share/colcon-core/packages/rosbridge_server)
+[3.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_suite' with build type 'ament_cmake'
+[3.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/rosbridge_suite/rosbridge_suite'
+[3.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_suite': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosbridge_suite -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosbridge_suite
+[3.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_suite' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosbridge_suite -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosbridge_suite
+[3.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_suite': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_suite -- -j32 -l32
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_suite' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_suite -- -j32 -l32
+[3.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/rosbridge_suite': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_suite --target install -- -j32 -l32
+[3.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[3.654s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite' for CMake module files
+[3.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/rosbridge_suite' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosbridge_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_server/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_suite --target install -- -j32 -l32
+[3.656s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite' for CMake config files
+[3.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[3.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[3.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[3.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[3.658s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/bin'
+[3.659s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[3.659s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/lib/python3.6/site-packages'
+[3.659s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/bin'
+[3.659s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[3.660s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[3.661s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[3.661s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[3.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[3.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbridge_suite)
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite' for CMake module files
+[3.688s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite' for CMake config files
+[3.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbridge_suite', 'cmake_prefix_path')
+[3.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.ps1'
+[3.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.dsv'
+[3.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/hook/cmake_prefix_path.sh'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/bin'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/lib/pkgconfig/rosbridge_suite.pc'
+[3.690s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/lib/python3.6/site-packages'
+[3.691s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/rosbridge_suite/bin'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.ps1'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.dsv'
+[3.691s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.sh'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.bash'
+[3.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/rosbridge_suite/share/rosbridge_suite/package.zsh'
+[3.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/rosbridge_suite/share/colcon-core/packages/rosbridge_suite)
+[3.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.694s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.700s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.700s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.702s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.702s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.ps1'
+[3.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[3.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.ps1'
+[3.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.sh'
+[3.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[3.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.sh'
+[3.706s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.bash'
+[3.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.bash'
+[3.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.zsh'
+[3.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.zsh'

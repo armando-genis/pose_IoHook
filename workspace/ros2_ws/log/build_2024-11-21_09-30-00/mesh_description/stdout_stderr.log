@@ -1,0 +1,24 @@
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf/robot.urdf
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf/robot.xacro
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch/display.launch.py
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes/obj_01.stl
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/package_run_dependencies/mesh_description
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/parent_prefix_path/mesh_description
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.sh
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.sh
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.zsh
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/packages/mesh_description
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.xml

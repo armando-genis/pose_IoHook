@@ -1,0 +1,6 @@
+camera_reader_node:
+  ros__parameters:
+    user_name: "admin"
+    password: "cv+sg-34a1"
+    camera_ip: "10.2.105.189"
+    camera_port: 554

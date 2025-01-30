@@ -1,0 +1,55 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/genis/personal/hook_ws/install/tier4_auto_msgs_converter/include/**",
+        "/home/genis/personal/hook_ws/install/pix_hooke_driver/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_vehicle_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_v2x_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_api_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_system_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_simulation_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_rtc_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_planning_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_perception_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_map_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_localization_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_hmi_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_external_api_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_debug_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/tier4_control_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/pix_hooke_driver_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_vehicle_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_v2x_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_system_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_sensing_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_planning_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_perception_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_map_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_localization_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_control_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_common_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_vehicle_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_system_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_planning_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_perception_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_mapping_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_geometry_msgs/include/**",
+        "/home/genis/personal/hook_ws/install/autoware_auto_control_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/genis/AMI/camera_ws/src/camera_reader/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

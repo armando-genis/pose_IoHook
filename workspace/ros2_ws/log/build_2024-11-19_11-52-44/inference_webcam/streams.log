@@ -1,0 +1,265 @@
+[0.011s] Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /workspace/ros2_ws/src/inference_webcam -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/inference_webcam
+[0.055s] -- The C compiler identification is GNU 7.5.0
+[0.094s] -- The CXX compiler identification is GNU 7.5.0
+[0.096s] -- Check for working C compiler: /usr/bin/cc
+[0.155s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.155s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.216s] -- Detecting C compile features
+[0.388s] -- Detecting C compile features - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.451s] -- Detecting CXX compiler ABI info
+[0.516s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Detecting CXX compile features
+[0.805s] -- Detecting CXX compile features - done
+[0.807s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.831s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.948s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.960s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.986s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.987s] -- Looking for pthread.h
+[1.069s] -- Looking for pthread.h - found
+[1.069s] -- Looking for pthread_create
+[1.157s] -- Looking for pthread_create - not found
+[1.157s] -- Looking for pthread_create in pthreads
+[1.213s] -- Looking for pthread_create in pthreads - not found
+[1.213s] -- Looking for pthread_create in pthread
+[1.275s] -- Looking for pthread_create in pthread - found
+[1.276s] -- Found Threads: TRUE  
+[1.302s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[1.317s] -- Found cv_bridge: 2.1.4 (/opt/ros/eloquent/share/cv_bridge/cmake)
+[1.330s] -- Found OpenCV: /usr (found version "3.2.0") 
+[1.331s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.384s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.388s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.388s] -- Configured cppcheck include dirs: 
+[1.393s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.393s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.395s] -- Added test 'lint_cmake' to check CMake code style
+[1.395s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.400s] -- Added test 'uncrustify' to check C / C++ code style
+[1.401s] -- Added test 'xmllint' to check XML markup files
+[1.402s] -- Configuring done
+[1.403s] -- Generating done
+[1.404s] -- Build files have been written to: /workspace/ros2_ws/build/inference_webcam
+[1.408s] Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /workspace/ros2_ws/src/inference_webcam -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/inference_webcam
+[1.409s] Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+[1.442s] Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+[1.467s] Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32
+[1.517s] [36mInstall the project...[0m
+[1.530s] -- Install configuration: ""
+[1.530s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/launch
+[1.530s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/launch/inference.launch.py
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/tfkeras.py
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/layers_vanilla_effdet.py
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/custom_load_weights.py
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/figures
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/figures/title_figure_repo.png
+[1.531s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/efficientnet.py
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/evaluate.py
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generate_masks.py
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/calc_min_distances.h
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/colors.py
+[1.532s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/image.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/compute_overlap.pyx
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/anchors.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/visualization.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/__init__.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/benchmark_runtime.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/inference.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/losses.py
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/LICENSE
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/info
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/info/exclude
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/HEAD
+[1.533s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/tags
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/heads
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/heads/main
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/remotes
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/remotes/origin
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/refs/remotes/origin/HEAD
+[1.534s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/HEAD
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs/heads
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs/heads/main
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs/remotes
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs/remotes/origin
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/logs/refs/remotes/origin/HEAD
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/branches
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/packed-refs
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/description
+[1.535s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/config
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/index
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/fsmonitor-watchman.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/pre-applypatch.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/commit-msg.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/pre-rebase.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/applypatch-msg.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/post-update.sample
+[1.536s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/update.sample
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/pre-push.sample
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/pre-commit.sample
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/pre-receive.sample
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/hooks/prepare-commit-msg.sample
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/46
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/46/0272ece9fc8e73881f83ce42ddd05be863a68d
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d7
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d7/8dec0891559863929990a9c5f06833d2fc5b0b
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/09
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/09/c8b52a51511ac9c871d3bbf8d8db850f91ec3f
+[1.537s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/92
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/92/21f126278da1ea3fb86f70cd7a1e27f0e6f7a3
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/0a
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/0a/aa364e536797ce294571b6fb11755fd3f239b1
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/0a/fa5c369bb7c530195e24caa234304b510c1f2b
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/4f
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/4f/cc6f9cc93771c8a786205914a9a970ad0fcf38
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/23
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/23/ff36a4a7dc3bb07ec1f3b7ee21eb0654efe582
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/pack
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/b7
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/b7/55e8b7e691b3a7b756d0b300cc705de266bd38
+[1.538s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/b7/1840d319e7a57523a6fc90eaff89e3772733ce
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/9d
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/9d/2c03fec443bb39aa6b1f02449b5cc3fc60dfae
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/89
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/89/6d2175c57a37fd81fb7c36dd71f35ccf971f73
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/info
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/ad
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/ad/5621ac3da2c3a0924fa21772f4f980daecb873
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a3
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a3/e9902dcfe25a3631318d0d00c005842d2f75d2
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/27
+[1.539s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/27/3050b553b883e91812d1994aa7b56cfe53e977
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a4
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a4/6a59f356943b3ce210130d086d7db2a703449e
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/43
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/43/b243c0cf0e007f0e414602c0ec6fa2cd55bd56
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d1
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d1/8a468e53c9a80a42111b651b676a13aafcc14d
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/86
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/86/19f02c678e56a17bafe94f9e0e2e816fe3b1e1
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/67
+[1.540s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/67/9a922286740437be8430c304ebd9105b58f388
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/b9
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/b9/5cf43de02c75f41e8ee3ba20b926967402b3db
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/c6
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/c6/57cab45c850057a63b3605897f5195f3c4ac02
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/ee
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/ee/57f0230ecbfc06fe29446550c6ab5a07932b5b
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d3
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/d3/16aaa775fd952e4ff714486a0a40a5bb5679ae
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5b
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5b/e8a1a5bf5b1b2cca667364ec8012a7ca961dd6
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/22
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/22/a8d097d791861f7e2e2c9531d504890d946c47
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/22/0d35a405c0622b6bd95b25d974ba0e22bc78cd
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/de
+[1.541s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/de/8b5264aead7cd7a66f41e3f9f5c3728f7a6b62
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/70
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/70/7134dc8f238bfc12a1fcb77400abee9990d0b0
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/91
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/91/7ca4db0085bb917063d76f10842bccc5acdeef
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/cb
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/cb/27db7eec91e52cc385e29097e5f0254f3f2283
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/98
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/98/01b757f1908926b82874b0a98a00366e97ed42
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/95
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/95/aad18082c9dd86660703852d3a44d7c6638a71
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/eb
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/eb/6b33deb26cc91d937a6f54c958bd5f5df89456
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5f
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5f/c0dd9f3ea8cc4fb126e245e336214a2ed67a17
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/41
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/41/8a49f560981f949b8cbdb4da7c48fd772444a3
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/8c
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/8c/78dcacc25be7754cf3fb467ea195ff92743b26
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/da
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/da/1913ee9fb7177da13f3b185bbae034f821d13e
+[1.542s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/8e
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/8e/f8410aae940e16d258d5a532a2c90a8fde1d2c
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/50
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/50/b058eae4ca202cd324dcbb0e2beea28006e60d
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/50/8acfa4f6ab53f933e06249bc4b0838c1ba5b93
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/0c
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/0c/52a46895538695fee951af9e4e47c914763a98
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/7c
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/7c/29169888c6fd4f449eec16f98cb184cea56371
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/af
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/af/91b9f55b09c437bea135cbd5898726052b6049
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/4e
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/4e/d7547134a5215d3bc3b38caddd0e546471e194
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f3
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f3/76c8bfcecfaaa9e911e36d6f4d111a3e0c27e9
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/6b
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/6b/41e44730345f4aac2325c17de01b2ad7e93027
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f7
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f7/0de7314d93fc93498e54c71857a89e91863990
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f7/ee126774c22dc30cc1848bf00bafdf1754f375
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/16
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/16/e4538471a1ee25f1c6b19fe402e680b924e916
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/52
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/52/4db3ac38f89d3a37b8cecf0ced0a129ae5d94f
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/52/d71ad11aee98fc92261bda02d4165b3a734088
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/78
+[1.543s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/78/b3e55d34bd3f4d4533db66bf21fc2a9fda79d7
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/e6
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5c
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/5c/517c3665d6bf679c65674c65f2ccbea81003a9
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/03
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/03/fd4cc7b4ef9e986ae7740aea7bbdf341fc033d
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/24
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/24/010367d41d6035e76bfcd2953fea1eb3afb0e4
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/20
+[1.544s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/20/e183831beb2d757400eb776090fe61b66d6ab4
+[1.545s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f6
+[1.546s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/f6/2310fec011db6d8da9bdadddedaabfda0bdadc
+[1.546s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/6f
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/6f/65cb168a7e5397176aade784c591c3f32273fc
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a7
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/a7/34e7f9eeba26bf1a5dece2a4498f88a2fe472a
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/64
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.git/objects/64/b71190df7ecbdfaa8f34a24c1ed6c4c67693ef
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/benchmark_runtime_vanilla_effdet.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/setup.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/.gitignore
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/initializers.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/eval_callback.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/common.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/__init__.py
+[1.547s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/train.py
+[1.548s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/layers.py
+[1.548s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/debug.py
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/requirements.txt
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/inference_webcam.py
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/README.md
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/model_vanilla_effdet.py
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/occlusion.py
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/randaug.py
+[1.549s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/linemod.py
+[1.549s] CMake Error at cmake_install.cmake:48 (file):
+[1.549s]   file INSTALL cannot find
+[1.550s]   "/workspace/ros2_ws/src/inference_webcam/scripts/ros2_inference.py".
+[1.550s] 
+[1.550s] 
+[1.550s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/common.py
+[1.550s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/__init__.py
+[1.550s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/model.py
+[1.550s] -- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/ros2_inference.py
+[1.550s] Makefile:73: recipe for target 'install' failed
+[1.550s] make: *** [install] Error 1
+[1.550s] Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32

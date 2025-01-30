@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (camera_reader) JobQueued: {'identifier': 'camera_reader', 'dependencies': OrderedDict()}
+[0.000474] (camera_reader) JobStarted: {'identifier': 'camera_reader'}
+[0.007817] (camera_reader) JobProgress: {'identifier': 'camera_reader', 'progress': 'cmake'}
+[0.007972] (camera_reader) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/camera_reader', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/camera_reader'], 'cwd': '/workspace/ros2_ws/build/camera_reader', 'env': OrderedDict([('HOSTNAME', 'genis-Precision-7680'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('LESS', '-R'), ('ZSH_THEME', 'robbyrussell'), ('WS_DIR', '/workspace'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '10.0.130'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('LOGNAME', 'root'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=10.0 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411'), ('_', '/usr/local/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video,graphics,display'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CUDA_PKG_VERSION', '10-0=10.0.130-1'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/workspace/ros2_ws/build/camera_reader'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent')]), 'shell': False}
+[0.073061] (camera_reader) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099433] (-) TimerEvent: {}
+[0.114444] (camera_reader) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.116824] (camera_reader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.189334] (camera_reader) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.189605] (camera_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199505] (-) TimerEvent: {}
+[0.269054] (camera_reader) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.275023] (camera_reader) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299592] (-) TimerEvent: {}
+[0.400028] (-) TimerEvent: {}
+[0.476129] (camera_reader) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.477329] (camera_reader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500243] (-) TimerEvent: {}
+[0.545214] (camera_reader) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.545863] (camera_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600418] (-) TimerEvent: {}
+[0.619093] (camera_reader) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.622225] (camera_reader) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.700601] (-) TimerEvent: {}
+[0.800842] (-) TimerEvent: {}
+[0.901118] (-) TimerEvent: {}
+[0.908062] (camera_reader) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.909359] (camera_reader) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.931051] (camera_reader) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.931165] (camera_reader) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001200] (-) TimerEvent: {}
+[1.047090] (camera_reader) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[1.058687] (camera_reader) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.083903] (camera_reader) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.084671] (camera_reader) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.085318] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101352] (-) TimerEvent: {}
+[1.163034] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.163592] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.201567] (-) TimerEvent: {}
+[1.241187] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.241345] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.301070] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.301327] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.301616] (-) TimerEvent: {}
+[1.361786] (camera_reader) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.362481] (camera_reader) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.384638] (camera_reader) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[1.401788] (-) TimerEvent: {}
+[1.406934] (camera_reader) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "3.2.0") \n'}
+[1.407718] (camera_reader) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.4 (/opt/ros/eloquent/share/cv_bridge/cmake)\n'}
+[1.410476] (camera_reader) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[1.475866] (camera_reader) StderrLine: {'line': b'=============================================================\n'}
+[1.476093] (camera_reader) StderrLine: {'line': b'-- ROS Found. ROS Support is turned ON.\n'}
+[1.476182] (camera_reader) StderrLine: {'line': b'=============================================================\n'}
+[1.478007] (camera_reader) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.478203] (camera_reader) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/ros2_ws/src/camera_reader/include>\n'}
+[1.478339] (camera_reader) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.478719] (camera_reader) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.479030] (camera_reader) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.479481] (camera_reader) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.479835] (camera_reader) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.481136] (camera_reader) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.492830] (camera_reader) StdoutLine: {'line': b'-- Generating done\n'}
+[1.493678] (camera_reader) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/camera_reader\n'}
+[1.497600] (camera_reader) CommandEnded: {'returncode': 0}
+[1.498534] (camera_reader) JobProgress: {'identifier': 'camera_reader', 'progress': 'build'}
+[1.498574] (camera_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/camera_reader', '--', '-j32', '-l32'], 'cwd': '/workspace/ros2_ws/build/camera_reader', 'env': OrderedDict([('HOSTNAME', 'genis-Precision-7680'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('LESS', '-R'), ('ZSH_THEME', 'robbyrussell'), ('WS_DIR', '/workspace'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '10.0.130'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('LOGNAME', 'root'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=10.0 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411'), ('_', '/usr/local/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video,graphics,display'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CUDA_PKG_VERSION', '10-0=10.0.130-1'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/workspace/ros2_ws/build/camera_reader'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent')]), 'shell': False}
+[1.501890] (-) TimerEvent: {}
+[1.534654] (camera_reader) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_reader_node\x1b[0m\n'}
+[1.558229] (camera_reader) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_reader_node.dir/src/camera_reader_node.cpp.o\x1b[0m\n'}
+[1.602107] (-) TimerEvent: {}
+[1.702522] (-) TimerEvent: {}
+[1.802942] (-) TimerEvent: {}
+[1.903358] (-) TimerEvent: {}
+[2.003792] (-) TimerEvent: {}
+[2.104136] (-) TimerEvent: {}
+[2.204490] (-) TimerEvent: {}
+[2.304834] (-) TimerEvent: {}
+[2.405174] (-) TimerEvent: {}
+[2.505525] (-) TimerEvent: {}
+[2.605913] (-) TimerEvent: {}
+[2.706195] (-) TimerEvent: {}
+[2.806528] (-) TimerEvent: {}
+[2.906870] (-) TimerEvent: {}
+[3.007131] (-) TimerEvent: {}
+[3.107378] (-) TimerEvent: {}
+[3.207638] (-) TimerEvent: {}
+[3.307899] (-) TimerEvent: {}
+[3.334635] (camera_reader) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_reader_node\x1b[0m\n'}
+[3.408072] (-) TimerEvent: {}
+[3.508432] (-) TimerEvent: {}
+[3.608770] (-) TimerEvent: {}
+[3.654617] (camera_reader) StdoutLine: {'line': b'[100%] Built target camera_reader_node\n'}
+[3.666191] (camera_reader) CommandEnded: {'returncode': 0}
+[3.700439] (camera_reader) JobProgress: {'identifier': 'camera_reader', 'progress': 'install'}
+[3.708891] (-) TimerEvent: {}
+[3.710691] (camera_reader) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/camera_reader', '--target', 'install', '--', '-j32', '-l32'], 'cwd': '/workspace/ros2_ws/build/camera_reader', 'env': OrderedDict([('HOSTNAME', 'genis-Precision-7680'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('LESS', '-R'), ('ZSH_THEME', 'robbyrussell'), ('WS_DIR', '/workspace'), ('ZSH', '/root/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_VERSION', '10.0.130'), ('ROS_DISTRO', 'eloquent'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('LOGNAME', 'root'), ('NVIDIA_REQUIRE_CUDA', 'cuda>=10.0 brand=tesla,driver>=384,driver<385 brand=tesla,driver>=410,driver<411'), ('_', '/usr/local/bin/colcon'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,video,graphics,display'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('CUDA_PKG_VERSION', '10-0=10.0.130-1'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('DEBIAN_FRONTEND', 'noninteractive'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/workspace/ros2_ws/build/camera_reader'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent')]), 'shell': False}
+[3.765240] (camera_reader) StdoutLine: {'line': b'[100%] Built target camera_reader_node\n'}
+[3.781271] (camera_reader) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.788180] (camera_reader) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.788282] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node\n'}
+[3.788793] (camera_reader) StdoutLine: {'line': b'-- Set runtime path of "/workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node" to ""\n'}
+[3.788895] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch\n'}
+[3.789080] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch/camera_launcher.launch.py\n'}
+[3.789172] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src\n'}
+[3.789221] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src/camera_reader_node.cpp\n'}
+[3.789266] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config\n'}
+[3.789309] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config/params.yaml\n'}
+[3.789354] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/package_run_dependencies/camera_reader\n'}
+[3.789397] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/parent_prefix_path/camera_reader\n'}
+[3.789443] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.sh\n'}
+[3.789484] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.dsv\n'}
+[3.789711] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.sh\n'}
+[3.789832] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.dsv\n'}
+[3.789900] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.bash\n'}
+[3.789943] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.sh\n'}
+[3.789981] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.zsh\n'}
+[3.790019] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.dsv\n'}
+[3.790055] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv\n'}
+[3.790104] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/packages/camera_reader\n'}
+[3.790141] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig.cmake\n'}
+[3.790179] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig-version.cmake\n'}
+[3.790219] (camera_reader) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.xml\n'}
+[3.792042] (camera_reader) CommandEnded: {'returncode': 0}
+[3.809098] (-) TimerEvent: {}
+[3.841845] (camera_reader) JobEnded: {'identifier': 'camera_reader', 'rc': 0}
+[3.843484] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /workspace/ros2_ws/src/rosbridge_suite/rosbridge_library
+# Build directory: /workspace/ros2_ws/build/rosbridge_library
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(test_capabilities "/usr/bin/python3" "-u" "/opt/ros/eloquent/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros2_ws/build/rosbridge_library/test_results/rosbridge_library/test_capabilities.xunit.xml" "--package-name" "rosbridge_library" "--output-file" "/workspace/ros2_ws/build/rosbridge_library/ament_cmake_pytest/test_capabilities.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library/test/capabilities/" "-o" "cache_dir=/workspace/ros2_ws/build/rosbridge_library/ament_cmake_pytest/test_capabilities/.cache" "--junit-xml=/workspace/ros2_ws/build/rosbridge_library/test_results/rosbridge_library/test_capabilities.xunit.xml" "--junit-prefix=rosbridge_library")
+set_tests_properties(test_capabilities PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library")
+add_test(test_internal "/usr/bin/python3" "-u" "/opt/ros/eloquent/share/ament_cmake_test/cmake/run_test.py" "/workspace/ros2_ws/build/rosbridge_library/test_results/rosbridge_library/test_internal.xunit.xml" "--package-name" "rosbridge_library" "--output-file" "/workspace/ros2_ws/build/rosbridge_library/ament_cmake_pytest/test_internal.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library/test/internal/" "-o" "cache_dir=/workspace/ros2_ws/build/rosbridge_library/ament_cmake_pytest/test_internal/.cache" "--junit-xml=/workspace/ros2_ws/build/rosbridge_library/test_results/rosbridge_library/test_internal.xunit.xml" "--junit-prefix=rosbridge_library")
+set_tests_properties(test_internal PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/workspace/ros2_ws/src/rosbridge_suite/rosbridge_library")

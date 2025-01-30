@@ -1,0 +1,55 @@
+[0.014s] Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /workspace/ros2_ws/src/mesh_description -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/mesh_description
+[0.103s] -- The C compiler identification is GNU 7.5.0
+[0.178s] -- The CXX compiler identification is GNU 7.5.0
+[0.182s] -- Check for working C compiler: /usr/bin/cc
+[0.239s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.239s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.301s] -- Detecting C compile features
+[0.496s] -- Detecting C compile features - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.573s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.653s] -- Detecting CXX compile features
+[0.999s] -- Detecting CXX compile features - done
+[1.004s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.183s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[1.244s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.246s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.247s] -- Added test 'lint_cmake' to check CMake code style
+[1.247s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.248s] -- Added test 'xmllint' to check XML markup files
+[1.249s] -- Configuring done
+[1.251s] -- Generating done
+[1.251s] -- Build files have been written to: /workspace/ros2_ws/build/mesh_description
+[1.253s] Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake /workspace/ros2_ws/src/mesh_description -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/mesh_description
+[1.255s] Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+[1.295s] Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+[1.320s] Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32
+[1.370s] [36mInstall the project...[0m
+[1.379s] -- Install configuration: ""
+[1.379s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf
+[1.380s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf/robot.urdf
+[1.380s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch
+[1.380s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch/display.launch.py
+[1.380s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes
+[1.380s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes/obj_01.stl
+[1.385s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/package_run_dependencies/mesh_description
+[1.385s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/parent_prefix_path/mesh_description
+[1.385s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.sh
+[1.385s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.dsv
+[1.385s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.sh
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.dsv
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.bash
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.sh
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.zsh
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.dsv
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.dsv
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/packages/mesh_description
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig.cmake
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig-version.cmake
+[1.386s] -- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.xml
+[1.389s] Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32

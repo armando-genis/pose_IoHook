@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<robot name="dasautonomeauto" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <!-- =============== Link & Joint =============== -->
+    <!-- Base Footprint -->
+
+
+    <link name="detected_object">
+        <visual>
+        <geometry>
+          <mesh filename="package://mesh_description/meshes/obj_01.stl" scale="0.004 0.004 0.004"/>
+
+        </geometry>
+        <material name="Cyan">
+            <color rgba="0.6 0.6 0.6 0.7"/>
+        </material>
+        </visual>
+    </link>
+
+
+</robot>

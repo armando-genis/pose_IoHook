@@ -1,0 +1,4 @@
+Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam -- -j32 -l32
+Invoking command in '/workspace/ros2_ws/build/inference_webcam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/inference_webcam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/inference_webcam --target install -- -j32 -l32

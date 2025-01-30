@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:48 (file):
+  file INSTALL cannot find
+  "/workspace/ros2_ws/src/inference_webcam/scripts/ros2_inference.py".
+
+
+make: *** [install] Error 1

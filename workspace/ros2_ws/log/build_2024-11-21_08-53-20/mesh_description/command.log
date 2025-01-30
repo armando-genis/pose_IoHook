@@ -1,0 +1,4 @@
+Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description -- -j32 -l32
+Invoking command in '/workspace/ros2_ws/build/mesh_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/mesh_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/mesh_description --target install -- -j32 -l32

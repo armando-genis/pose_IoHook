@@ -1,0 +1,34 @@
+[0.010s] Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[0.066s] [35m[1mScanning dependencies of target camera_reader_node[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_reader_node.dir/src/camera_reader_node.cpp.o[0m
+[1.861s] [100%] [32m[1mLinking CXX executable camera_reader_node[0m
+[2.181s] [100%] Built target camera_reader_node
+[2.192s] Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[2.236s] Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32
+[2.297s] [100%] Built target camera_reader_node
+[2.311s] [36mInstall the project...[0m
+[2.323s] -- Install configuration: ""
+[2.323s] -- Installing: /workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node
+[2.324s] -- Set runtime path of "/workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node" to ""
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch/camera_launcher.launch.py
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src
+[2.324s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src/camera_reader_node.cpp
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config/params.yaml
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/package_run_dependencies/camera_reader
+[2.324s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/parent_prefix_path/camera_reader
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.sh
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.dsv
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.sh
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.dsv
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.bash
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.sh
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.zsh
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.dsv
+[2.325s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/packages/camera_reader
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig.cmake
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig-version.cmake
+[2.325s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.xml
+[2.329s] Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32

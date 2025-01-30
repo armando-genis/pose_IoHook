@@ -1,0 +1,30 @@
+{
+  "package_name": "rosapi_msgs",
+  "non_idl_tuples": [
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:msg/TypeDef.msg",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/DeleteParam.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/GetActionServers.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParam.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/GetParamNames.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/GetROSVersion.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/GetTime.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/HasParam.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/MessageDetails.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/Nodes.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/NodeDetails.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/Publishers.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceNode.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceProviders.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceRequestDetails.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceResponseDetails.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/Services.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServicesForType.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/ServiceType.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/SetParam.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/Subscribers.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/Topics.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsAndRawTypes.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicsForType.srv",
+    "/workspace/ros2_ws/src/rosbridge_suite/rosapi_msgs:srv/TopicType.srv"
+  ]
+}

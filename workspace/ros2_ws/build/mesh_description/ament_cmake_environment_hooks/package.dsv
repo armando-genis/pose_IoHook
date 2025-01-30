@@ -1,0 +1,4 @@
+source;share/mesh_description/local_setup.bash
+source;share/mesh_description/local_setup.dsv
+source;share/mesh_description/local_setup.sh
+source;share/mesh_description/local_setup.zsh

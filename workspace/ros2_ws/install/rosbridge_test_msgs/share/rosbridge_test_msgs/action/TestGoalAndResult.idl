@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from rosbridge_test_msgs/action/TestGoalAndResult.action
+// generated code does not contain a copyright notice
+
+
+module rosbridge_test_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      " Goal")
+    struct TestGoalAndResult_Goal {
+      int32 data;
+    };
+    struct TestGoalAndResult_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TestGoalAndResult_Feedback {
+      @verbatim (language="comment", text=
+        " result")
+      int32 data;
+    };
+  };
+};

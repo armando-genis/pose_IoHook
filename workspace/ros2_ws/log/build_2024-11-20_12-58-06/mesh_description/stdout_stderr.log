@@ -1,0 +1,49 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/ros2_ws/build/mesh_description
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/urdf/robot.urdf
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/launch/display.launch.py
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/meshes/obj_01.stl
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/package_run_dependencies/mesh_description
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/parent_prefix_path/mesh_description
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/ament_prefix_path.dsv
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.sh
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/environment/path.dsv
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.bash
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.sh
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.zsh
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.dsv
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/ament_index/resource_index/packages/mesh_description
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig.cmake
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/cmake/mesh_descriptionConfig-version.cmake
+-- Installing: /workspace/ros2_ws/install/mesh_description/share/mesh_description/package.xml

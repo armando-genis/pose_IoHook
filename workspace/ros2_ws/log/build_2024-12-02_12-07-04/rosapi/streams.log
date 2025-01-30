@@ -1,0 +1,66 @@
+[0.014s] Invoking command in '/workspace/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosapi -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosapi
+[0.061s] -- The C compiler identification is GNU 7.5.0
+[0.108s] -- The CXX compiler identification is GNU 7.5.0
+[0.111s] -- Check for working C compiler: /usr/bin/cc
+[0.178s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.178s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.246s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++
+[0.527s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.527s] -- Detecting CXX compiler ABI info
+[0.606s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.931s] -- Detecting CXX compile features - done
+[0.932s] -- Found ament_cmake_ros: 0.8.0 (/opt/ros/eloquent/share/ament_cmake_ros/cmake)
+[0.961s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.961s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.728s] -- Configuring done
+[1.729s] -- Generating done
+[1.730s] -- Build files have been written to: /workspace/ros2_ws/build/rosapi
+[1.732s] Invoked command in '/workspace/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /workspace/ros2_ws/src/rosbridge_suite/rosapi -DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/rosapi
+[1.734s] Invoking command in '/workspace/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi -- -j32 -l32
+[1.778s] Invoked command in '/workspace/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi -- -j32 -l32
+[1.816s] Invoking command in '/workspace/ros2_ws/build/rosapi': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi --target install -- -j32 -l32
+[1.865s] [36mInstall the project...[0m
+[1.877s] -- Install configuration: ""
+[1.877s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/pythonpath.sh
+[1.877s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/pythonpath.dsv
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/objectutils.py
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/glob_helper.py
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/stringify_field_types.py
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/params.py
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/__init__.py
+[1.878s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/proxy.py
+[1.908s] Listing '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi'...
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/__init__.py'...
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/glob_helper.py'...
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/objectutils.py'...
+[1.908s] ***   File "/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/objectutils.py", line 76
+[1.908s]     if matches := re.findall("sequence<([^<]+)>", type):
+[1.908s]                 ^
+[1.908s] SyntaxError: invalid syntax
+[1.908s] 
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/params.py'...
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/proxy.py'...
+[1.908s] Compiling '/workspace/ros2_ws/install/rosapi/lib/python3.6/site-packages/rosapi/stringify_field_types.py'...
+[1.910s] -- Installing: /workspace/ros2_ws/install/rosapi/share/ament_index/resource_index/package_run_dependencies/rosapi
+[1.910s] -- Installing: /workspace/ros2_ws/install/rosapi/share/ament_index/resource_index/parent_prefix_path/rosapi
+[1.910s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.sh
+[1.910s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/ament_prefix_path.dsv
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/path.sh
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/environment/path.dsv
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/local_setup.bash
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/local_setup.sh
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/local_setup.zsh
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/local_setup.dsv
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/package.dsv
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/ament_index/resource_index/packages/rosapi
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/cmake/rosapiConfig.cmake
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/cmake/rosapiConfig-version.cmake
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/package.xml
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/lib/rosapi/rosapi_node
+[1.911s] -- Installing: /workspace/ros2_ws/install/rosapi/share/rosapi/mapping_rules.yaml
+[1.914s] Invoked command in '/workspace/ros2_ws/build/rosapi' returned '0': AMENT_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosapi_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/workspace/ros2_ws/install/rosbridge_test_msgs/lib:/workspace/ros2_ws/install/rosapi_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/ros2_ws/install/rosbridge_library/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosbridge_test_msgs/lib/python3.6/site-packages:/workspace/ros2_ws/install/rosapi_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/ros2_ws/build/rosapi --target install -- -j32 -l32

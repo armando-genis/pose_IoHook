@@ -1,0 +1,4 @@
+Invoking command in '/workspace/ros2_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs -- -j32 -l32
+Invoking command in '/workspace/ros2_ws/build/rosbridge_test_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs --target install -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/rosbridge_test_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/rosbridge_test_msgs --target install -- -j32 -l32

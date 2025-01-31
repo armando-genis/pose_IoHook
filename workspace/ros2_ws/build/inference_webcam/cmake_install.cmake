@@ -47,6 +47,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/inference_webcam" TYPE PROGRAM FILES
     "/workspace/ros2_ws/src/inference_webcam/scripts/EfficientPose/ros2_inference.py"
+    "/workspace/ros2_ws/src/inference_webcam/scripts/EfficientPose/ros2_inference_ladle_hook.py"
     "/workspace/ros2_ws/src/inference_webcam/launch/inference.launch.py"
     )
 endif()

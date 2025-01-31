@@ -52,7 +52,9 @@ def main():
 
     #input parameter
     phi = 0
-    path_to_weights = "/workspace/Weights/nucor/ladle.h5"
+    # path_to_weights = "/workspace/Weights/nucor/ladle.h5"
+    path_to_weights = "/workspace/30_01_2025_17_36_39/object_1/phi_0_linemod_best_ADD.h5"
+
     path_to_weights_hook = "/workspace/Weights/nucor/hook.h5"
     # save_path = "./predictions/occlusion/" #where to save the images or None if the images should be displayed and not saved
     save_path = None

@@ -1,1 +1,1 @@
-/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent
+/workspace/ros2_ws/install/camera_testing:/workspace/ros2_ws/install/rosbridge_test_msgs:/workspace/ros2_ws/install/rosbridge_suite:/workspace/ros2_ws/install/rosbridge_server:/workspace/ros2_ws/install/rosbridge_msgs:/workspace/ros2_ws/install/rosapi:/workspace/ros2_ws/install/rosbridge_library:/workspace/ros2_ws/install/rosapi_msgs:/workspace/ros2_ws/install/mesh_description:/workspace/ros2_ws/install/inference_webcam:/workspace/ros2_ws/install/camera_reader:/opt/ros/eloquent

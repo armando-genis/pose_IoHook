@@ -48,7 +48,7 @@ video_publisher::video_publisher(/* args */) : Node("camera_reader_node")
     // print the frame_interval_ms in green
     RCLCPP_INFO(this->get_logger(), "\033[1;32mFrame interval: %d ms\033[0m", frame_interval_ms);
 
-    image_pub_ = this->create_publisher<sensor_msgs::msg::Image>("/video_frames", 10);
+    image_pub_ = this->create_publisher<sensor_msgs::msg::Image>("/camera/image", 10);
 
     timer_ = this->create_wall_timer(
         std::chrono::milliseconds(frame_interval_ms),

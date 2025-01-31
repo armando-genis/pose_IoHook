@@ -41,6 +41,8 @@ install(
 install(
   PROGRAMS
   scripts/EfficientPose/ros2_inference.py #install the file
+  scripts/EfficientPose/ros2_inference_ladle_hook.py
+
   launch/inference.launch.py #install the launcher
   DESTINATION lib/${PROJECT_NAME}
 )

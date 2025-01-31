@@ -1,0 +1,88 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found cv_bridge: 2.1.4 (/opt/ros/eloquent/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/ros2_ws/build/inference_webcam
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/launch
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/launch/inference.launch.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/tfkeras.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/layers_vanilla_effdet.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/custom_load_weights.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/figures
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/figures/title_figure_repo.png
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/efficientnet.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/evaluate.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generate_masks.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/calc_min_distances.h
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/colors.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/image.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/compute_overlap.pyx
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/anchors.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/visualization.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/utils/__init__.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/benchmark_runtime.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/inference.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/losses.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/LICENSE
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/benchmark_runtime_vanilla_effdet.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/ros2_inference_ladle_hook.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/setup.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/initializers.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/eval_callback.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/common.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/eval/__init__.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/train.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/layers.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/debug.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/requirements.txt
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/inference_webcam.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/README.md
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/model_vanilla_effdet.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/occlusion.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/randaug.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/linemod.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/common.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/generators/__init__.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/model.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/scripts/EfficientPose/ros2_inference.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/lib/inference_webcam/ros2_inference.py
+-- Installing: /workspace/ros2_ws/install/inference_webcam/lib/inference_webcam/ros2_inference_ladle_hook.py
+-- Installing: /workspace/ros2_ws/install/inference_webcam/lib/inference_webcam/inference.launch.py
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/ament_index/resource_index/package_run_dependencies/inference_webcam
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/ament_index/resource_index/parent_prefix_path/inference_webcam
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/environment/path.sh
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/local_setup.zsh
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/ament_index/resource_index/packages/inference_webcam
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/cmake/inference_webcamConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/cmake/inference_webcamConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/inference_webcam/share/inference_webcam/package.xml

@@ -32,7 +32,7 @@ class ImageSubscriber(Node):
 
         # Initialize CvBridge
         self.bridge = CvBridge()
-        self.get_logger().info("Image Subscriber Node Initialized.")
+        
 
         self.phi = 0
         self.path_to_weights = "/workspace/object_1/phi_0_linemod_best_ADD.h5"
@@ -60,6 +60,9 @@ class ImageSubscriber(Node):
             self.image_callback,
             10)
         self.subscription  # prevent unused variable warning
+
+
+        self.get_logger().info("=========================> Image Subscriber Node Initialized. <=====================")
 
     def image_callback(self, msg):
         # Convert ROS Image message to OpenCV image

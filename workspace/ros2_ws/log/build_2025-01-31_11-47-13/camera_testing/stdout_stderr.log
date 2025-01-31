@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target camera_testing_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_testing_node.dir/src/video_publisher.cpp.o[0m
+[01m[K/workspace/ros2_ws/src/camera_testing/src/video_publisher.cpp:[m[K In constructor ‘[01m[Kvideo_publisher::video_publisher()[m[K’:
+[01m[K/workspace/ros2_ws/src/camera_testing/src/video_publisher.cpp:38:20:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoPublisher[m[K’ has not been declared
+         std::bind(&[01;31m[KVideoPublisher[m[K::publish_frame, this));
+                    [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/camera_testing_node.dir/src/video_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/camera_testing_node.dir/all] Error 2
+CMakeFiles/camera_testing_node.dir/build.make:62: recipe for target 'CMakeFiles/camera_testing_node.dir/src/video_publisher.cpp.o' failed
+CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/camera_testing_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/workspace/ros2_ws/build/camera_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing -- -j32 -l32
+Invoked command in '/workspace/ros2_ws/build/camera_testing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing -- -j32 -l32

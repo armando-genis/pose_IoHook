@@ -31,10 +31,27 @@ video_publisher::video_publisher(/* args */) : Node("camera_reader_node")
         rclcpp::shutdown();
     }
 
+    // Retrieve the frame rate from the video
+    double fps = cap_.get(cv::CAP_PROP_FPS);
+
+    // print the fps in green
+    RCLCPP_INFO(this->get_logger(), "\033[1;32mFPS: %f\033[0m", fps);
+
+    if (fps <= 0)
+    {
+        RCLCPP_WARN(this->get_logger(), "Could not determine FPS. Defaulting to 30 FPS.");
+        fps = 30.0;
+    }
+
+    int frame_interval_ms = static_cast<int>(1000 / fps);
+
+    // print the frame_interval_ms in green
+    RCLCPP_INFO(this->get_logger(), "\033[1;32mFrame interval: %d ms\033[0m", frame_interval_ms);
+
     image_pub_ = this->create_publisher<sensor_msgs::msg::Image>("/video_frames", 10);
 
     timer_ = this->create_wall_timer(
-        std::chrono::milliseconds(30),
+        std::chrono::milliseconds(frame_interval_ms),
         std::bind(&video_publisher::publish_frame, this));
 
     RCLCPP_INFO(this->get_logger(), "\033[1;32m----> camera_reader_node initialized.\033[0m");
@@ -54,8 +71,12 @@ void video_publisher::publish_frame()
         return;
     }
 
-    auto msg = cv_bridge::CvImage(std_msgs::msg::Header(), "bgr8", frame).toImageMsg();
-    image_pub_->publish(*msg);
+    // Convert the OpenCV frame to a ROS 2 image message
+    std_msgs::msg::Header header;
+    header.stamp = this->now();
+    header.frame_id = "camera_frame";
+    sensor_msgs::msg::Image::SharedPtr image_msg = cv_bridge::CvImage(header, "bgr8", frame).toImageMsg();
+    image_pub_->publish(*image_msg);
 }
 
 int main(int argc, char *argv[])

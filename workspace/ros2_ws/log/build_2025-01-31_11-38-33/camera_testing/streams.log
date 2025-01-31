@@ -1,0 +1,30 @@
+[0.042s] Invoking command in '/workspace/ros2_ws/build/camera_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing -- -j32 -l32
+[0.081s] [35m[1mScanning dependencies of target camera_testing_node[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_testing_node.dir/src/video_publisher.cpp.o[0m
+[1.421s] [100%] [32m[1mLinking CXX executable camera_testing_node[0m
+[1.689s] [100%] Built target camera_testing_node
+[1.699s] Invoked command in '/workspace/ros2_ws/build/camera_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing -- -j32 -l32
+[1.731s] Invoking command in '/workspace/ros2_ws/build/camera_testing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing --target install -- -j32 -l32
+[1.791s] [100%] Built target camera_testing_node
+[1.807s] [36mInstall the project...[0m
+[1.816s] -- Install configuration: ""
+[1.816s] -- Installing: /workspace/ros2_ws/install/camera_testing/lib/camera_testing/camera_testing_node
+[1.817s] -- Set runtime path of "/workspace/ros2_ws/install/camera_testing/lib/camera_testing/camera_testing_node" to ""
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/src
+[1.817s] -- Installing: /workspace/ros2_ws/install/camera_testing/share/camera_testing/src/video_publisher.cpp
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/package_run_dependencies/camera_testing
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/parent_prefix_path/camera_testing
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/ament_prefix_path.sh
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/ament_prefix_path.dsv
+[1.817s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/path.sh
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/path.dsv
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.bash
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.sh
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.zsh
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.dsv
+[1.818s] -- Installing: /workspace/ros2_ws/install/camera_testing/share/camera_testing/package.dsv
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/packages/camera_testing
+[1.818s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/cmake/camera_testingConfig.cmake
+[1.819s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/cmake/camera_testingConfig-version.cmake
+[1.819s] -- Up-to-date: /workspace/ros2_ws/install/camera_testing/share/camera_testing/package.xml
+[1.822s] Invoked command in '/workspace/ros2_ws/build/camera_testing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_testing --target install -- -j32 -l32

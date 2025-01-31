@@ -1,0 +1,45 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+-- Found cv_bridge: 2.1.4 (/opt/ros/eloquent/share/cv_bridge/cmake)
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/ros2_ws/src/camera_reader/include>
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/ros2_ws/build/camera_reader
+[100%] Built target camera_reader_node
+[100%] Built target camera_reader_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch/camera_launcher.launch.py
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src/camera_reader_node.cpp
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config/params.yaml
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/package_run_dependencies/camera_reader
+-- Installing: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/parent_prefix_path/camera_reader
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.sh
+-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.sh
+-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.dsv
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.bash
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.sh
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.zsh
+-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.dsv
+-- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/packages/camera_reader
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig.cmake
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig-version.cmake
+-- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.xml

@@ -1,0 +1,52 @@
+[0.035s] Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[0.071s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.094s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.229s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[0.243s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[0.272s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.301s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[0.325s] -- Found cv_bridge: 2.1.4 (/opt/ros/eloquent/share/cv_bridge/cmake)
+[0.329s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[0.406s] =============================================================
+[0.407s] -- ROS Found. ROS Support is turned ON.
+[0.407s] =============================================================
+[0.410s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.411s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/workspace/ros2_ws/src/camera_reader/include>
+[0.411s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.411s] -- Added test 'lint_cmake' to check CMake code style
+[0.412s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.413s] -- Added test 'uncrustify' to check C / C++ code style
+[0.413s] -- Added test 'xmllint' to check XML markup files
+[0.415s] -- Configuring done
+[0.451s] -- Generating done
+[0.453s] -- Build files have been written to: /workspace/ros2_ws/build/camera_reader
+[0.498s] [100%] Built target camera_reader_node
+[0.510s] Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader -- -j32 -l32
+[0.538s] Invoking command in '/workspace/ros2_ws/build/camera_reader': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32
+[0.595s] [100%] Built target camera_reader_node
+[0.611s] [36mInstall the project...[0m
+[0.618s] -- Install configuration: ""
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/lib/camera_reader/camera_reader_node
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/launch/camera_launcher.launch.py
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/src/camera_reader_node.cpp
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/config/params.yaml
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/package_run_dependencies/camera_reader
+[0.620s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/parent_prefix_path/camera_reader
+[0.620s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.sh
+[0.621s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/ament_prefix_path.dsv
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.sh
+[0.621s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/environment/path.dsv
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.bash
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.sh
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.zsh
+[0.621s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/local_setup.dsv
+[0.621s] -- Installing: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.dsv
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/ament_index/resource_index/packages/camera_reader
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig.cmake
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/cmake/camera_readerConfig-version.cmake
+[0.621s] -- Up-to-date: /workspace/ros2_ws/install/camera_reader/share/camera_reader/package.xml
+[0.622s] Invoked command in '/workspace/ros2_ws/build/camera_reader' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent /usr/bin/cmake --build /workspace/ros2_ws/build/camera_reader --target install -- -j32 -l32

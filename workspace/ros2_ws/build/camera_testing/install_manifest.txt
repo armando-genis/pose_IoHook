@@ -1,0 +1,17 @@
+/workspace/ros2_ws/install/camera_testing/lib/camera_testing/camera_testing_node
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/src/video_publisher.cpp
+/workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/package_run_dependencies/camera_testing
+/workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/parent_prefix_path/camera_testing
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/ament_prefix_path.sh
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/ament_prefix_path.dsv
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/path.sh
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/environment/path.dsv
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.bash
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.sh
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.zsh
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/local_setup.dsv
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/package.dsv
+/workspace/ros2_ws/install/camera_testing/share/ament_index/resource_index/packages/camera_testing
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/cmake/camera_testingConfig.cmake
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/cmake/camera_testingConfig-version.cmake
+/workspace/ros2_ws/install/camera_testing/share/camera_testing/package.xml

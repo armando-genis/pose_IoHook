@@ -45,13 +45,13 @@ def main():
 
     #input parameter
     phi = 0
-    path_to_weights = "/workspace/object_1/phi_0_linemod_best_ADD.h5"
+    path_to_weights = "/workspace/28_02_2025_19_18_54/object_1/phi_0_linemod_best_ADD.h5"
     # save_path = "./predictions/occlusion/" #where to save the images or None if the images should be displayed and not saved
     save_path = None
     image_extension = ".jpg"
     # class_to_name = {0: "ape", 1: "can", 2: "cat", 3: "driller", 4: "duck", 5: "eggbox", 6: "glue", 7: "holepuncher"} #Occlusion
     class_to_name = {0: "ape"} #Linemod use a single class with a name of the Linemod objects
-    score_threshold = 0.8
+    score_threshold = 0.9
     translation_scale_norm = 1000.0
     draw_bbox_2d = False
     draw_name = False
